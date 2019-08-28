@@ -17,6 +17,8 @@
   </head>
   <body>
     {% include "navbar.html" %}
+    {{request.user}}<br>
+    {{request.user.id}}
     <div class="container">
       {% block content %}
         
